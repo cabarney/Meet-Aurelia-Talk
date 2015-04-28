@@ -32,3 +32,21 @@ Points to hit on:
 >- aurelia-bootstrapper looks for "aurelia-app" and **by convention** will load app.js and app.html
 
 
+## MVVM
+
+An aurelia UI element is comprised of **VIEW** and **VIEWMODEL** pairs
+
+
+
+
+
+Ahead:
+- *Thing* class?
+- Custom element (maybe later?)
+- Routing
+- Navbar custom element
+- Second screen
+- CRUD *Thing*
+- Child routers?
+- TypeScript
+- Visual Studio and/or ASP.NET
