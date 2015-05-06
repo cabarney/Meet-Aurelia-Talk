@@ -36,8 +36,27 @@ Points to hit on:
 
 An aurelia UI element is comprised of **VIEW** and **VIEWMODEL** pairs
 
+Let's create an app view model and view
+
+> By convention, system.js looks for an app.js file for bootstrapping
+
+**COPY** app.js to src
+
+- This is ES6/7 - transpiled to ES 5.  
+- We'll look at TypeScript later
 
 
+**COPY** app.html to src
+
+> #### First look at binding
+> - value.bind
+> - submit.delegate
+> 
+> #### Other thoughts
+> - Mention .delegate vs. .trigger
+> - .bind is _adaptive_. Compare to .one-way, .two-way, .one-time
+
+Now let's add another screen and explore more binding options
 
 
 Ahead:
