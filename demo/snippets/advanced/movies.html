@@ -1,0 +1,28 @@
+<template>
+    <section>
+        <h2>${heading}</h2>
+        <div class="row">
+            <div class="col-sm-4">
+
+                  <div class="form-group">
+                    <label>Movie Title</label>
+                    <input type="text" class="form-control" value.bind="movieText">
+                  </div>
+                  <div class="form-group">
+                    <label>Rating</label>
+                    <input type="text" class="form-control" value.bind="rating">
+                  </div>
+                  <button class="btn btn-default" click.delegate="addMovie()">Add Movie</button>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <ul repeat.for="movie of movieList">
+                    <li><strong>${movie.title}</strong> (rated ${movie.rating} stars)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</template>

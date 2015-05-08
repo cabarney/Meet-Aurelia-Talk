@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="au-animate">
     <h2>${heading}</h2>
 
     <form role="form" submit.delegate="welcome()">
@@ -13,7 +13,7 @@
       </div>
       <div class="form-group">
         <label>Full Name</label>
-        <p class="help-block">${fullName}</p>
+        <p class="help-block">${fullName | upper}</p>
       </div>
       <button type="submit" class="btn btn-default">Submit</button>
     </form>
