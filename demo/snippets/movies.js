@@ -1,9 +1,10 @@
 export class Movies {
+    heading = "My Movie List";
     movieList = [];
     movieText = "";
 
     addMovie() {
-        movieList.push(movie);
-        movieText = "";
+        this.movieList.push(this.movieText);
+        this.movieText = "";
     }
 }
