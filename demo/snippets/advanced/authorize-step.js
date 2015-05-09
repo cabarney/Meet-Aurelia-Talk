@@ -1,7 +1,7 @@
 // ADD to app.js: import {Redirect} from 'aurelia-router';
 
-// ADD to config: config.addPipelineStep('suthorize', AuthorizeStep);
-// ADD to route: { route: ['movies'],  moduleId: './movies',      nav: true, title:'Awesome Movies', auth: true },
+// ADD to config: config.addPipelineStep('authorize', AuthorizeStep);
+// MODIFY route: { route: ['movies'],  moduleId: './movies',      nav: true, title:'Awesome Movies', auth: true },
 
 
 

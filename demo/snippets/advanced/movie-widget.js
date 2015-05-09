@@ -1,4 +1,4 @@
-import {bindable, customElement} from 'aurelia-framework';
+import {bindable} from 'aurelia-framework';
 
 export class MovieWidget{
     @bindable movie = {};
